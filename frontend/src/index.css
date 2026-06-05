@@ -1,0 +1,24 @@
+/* Import Lato font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+:root {
+  /* Adeoti LLC Brand Colors */
+  --brand-brown: #5d4037; /* Adjust based on exact hex from design */
+  --brand-gold: #cda274;
+  --brand-gradient: linear-gradient(135deg, var(--brand-brown) 0%, var(--brand-gold) 100%);
+  --text-dark: #333333;
+  --bg-light: #f9f9f9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+  line-height: 1.6;
+}
