@@ -1,0 +1,7 @@
+{
+  "name": "adeoti-llc-rebuild",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  }
+}
