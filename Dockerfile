@@ -7,7 +7,7 @@ WORKDIR /app
 # --- Step 1: Build the Frontend ---
 # Copy frontend package.json and install dependencies
 COPY frontend/package*.json ./frontend/
-RUN cd frontend && npm install
+RUN cd frontend && npm install --include=dev
 
 # Copy the rest of the frontend code and build it
 COPY frontend/ ./frontend/
