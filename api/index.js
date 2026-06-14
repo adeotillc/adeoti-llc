@@ -148,6 +148,8 @@ app.delete('/api/posts/:id', requireAdmin, async (req, res, next) => {
   }
 });
 
+app.use('/api/auth', require('./routes/auth'));
+
 // Serve React frontend files (Express v5 compatible route)
 app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
